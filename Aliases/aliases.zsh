@@ -1,7 +1,12 @@
 
 
 alias v="/usr/bin/nvim"
-
+alias joplin='joplin sync ; joplin'
+alias MyDay='clear ; echo "RECURRING DAILY TASKS" ; task Daily ; echo "SCHOOL RELATED TASKS" ; task School ; echo "NON RECURRING PERSONAL TASKS" ; task Personal ; echo "CODING IDEAS"; task Coding' 
+alias notes='cd ~/Documents/Notes'
+alias tracker='tracker.sh'
+alias dvorak='setxkbmap dvorak'
+alias us='setxkbmap us'
 
 # Adds color to some commands
 if ${use_color} ; then

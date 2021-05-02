@@ -1,2 +1,2 @@
-bindkey '^ ' autosuggest-accept
+bindkey '^k' autosuggest-accept
 
