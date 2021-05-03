@@ -30,7 +30,7 @@ autoload -Uz compinit && compinit
 source ~/.config/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.config/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/.config/zsh/plugins/powerlevel10k/powerlevel10k.zsh-theme
-
+source ~/.config/zsh/plugins/taskwarrior-autocomplete/taskwarrior-autocomplete.zsh
 ##############################    VI Mode
 bindkey -v
 export KEYTIMEOUT=0.5
