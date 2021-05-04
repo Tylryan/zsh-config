@@ -5,7 +5,7 @@ cd ~/
 git clone https://github.com/Tylryan/zsh_config.git ~/.config/zsh/
 
 # Copy them to your home directory.
-cp ~/.config/zsh/.p10k.zsh .zshrc ~/
+cp ~/zsh_config/.p10k.zsh .zshrc ~/
 
 # Removing the clone.
 rm -rf zsh_config
@@ -18,6 +18,3 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.config/zsh/plugins
 
 # Powerlevel10k: Customized PS1
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.config/zsh/plugins/powerlevel10k
-
-source ~/.zshrc
-
