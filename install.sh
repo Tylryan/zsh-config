@@ -5,7 +5,8 @@ cd ~/
 git clone https://github.com/Tylryan/zsh_config.git ~/.config/zsh/
 
 # Copy them to your home directory.
-cp ~/zsh_config/.p10k.zsh .zshrc ~/
+cp ~/zsh_config/.p10k.zsh 
+cp ~/zsh_config/.zshrc
 
 # Removing the clone.
 rm -rf zsh_config
