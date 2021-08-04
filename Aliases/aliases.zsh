@@ -15,6 +15,7 @@ alias dvorak='setxkbmap dvorak'
 alias us='setxkbmap us'
 alias gp='~/bin/gp.sh'
 alias swap-caps='setxkbmap -option caps:swapescape'
+alias doom='.emacs.d/bin/doom'
 # Adds color to some commands
 if ${use_color} ; then
 	# Enable colors for ls, etc.  Prefer ~/.dir_colors #64489
@@ -38,6 +39,3 @@ else
 		PS1='\u@\h \w \$ '
 	fi
 fi
-
-
-
