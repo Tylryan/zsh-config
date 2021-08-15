@@ -46,6 +46,7 @@ export EDITOR='/bin/nvim'
 export RANGER_LOAD_DEFAULT_RC=false
 export TASKRC=~/.config/task/.taskrc
 export TASKDATA=~/.config/task/.task/
+export PIP_USER=false
 
 PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/tyler/bin:/home/emacs.d/bin/
 
