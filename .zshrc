@@ -46,7 +46,7 @@ export TASKDATA=~/.config/task/.task/
 export PIP_USER=false
 export _JAVA_AWT_WM_NONREPARENTING=1
 
-PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/tyler/Bin:/home/.emacs.d/bin/
+PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/tyler/bin:/home/.emacs.d/bin/
 
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"

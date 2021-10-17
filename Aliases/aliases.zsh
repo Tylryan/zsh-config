@@ -1,22 +1,5 @@
 
 
-alias v="/usr/bin/nvim"
-alias joplin='joplin && joplin sync'
-alias MyDay='clear ; \
-    echo "RECURRING DAILY TASKS" ; \
-    task Daily ; echo "WORK RELATED TASKS" ; \
-    task Work ; echo "NON RECURRING PERSONAL TASKS" ;\
-    task Personal ; echo "CODING TASKS"; '
-alias notes='cd ~/Notes'
-alias tracker='tracker.sh'
-alias config='cd ~/.config/'
-alias dvorak='setxkbmap dvorak'
-alias us='setxkbmap us'
-alias no='setxkbmap no'
-alias gp='~/Bin/gp.sh'
-alias swap-caps='setxkbmap -option caps:swapescape'
-alias doom='.emacs.d/bin/doom'
-alias typing='python ~/Documents/Coding/Python/Typing_Game/main.py'
 # Adds color to some commands
 if ${use_color} ; then
 	# Enable colors for ls, etc.  Prefer ~/.dir_colors #64489
@@ -40,3 +23,25 @@ else
 		PS1='\u@\h \w \$ '
 	fi
 fi
+
+alias v="/usr/bin/nvim"
+alias joplin='joplin && joplin sync'
+alias MyDay='clear ; \
+    echo "RECURRING DAILY TASKS" ; \
+    task Daily ; echo "WORK RELATED TASKS" ; \
+    task Work ; echo "NON RECURRING PERSONAL TASKS" ;\
+    task Personal ; echo "CODING TASKS"; '
+alias notes='cd ~/Notes ; ranger'
+alias tracker='tracker.sh'
+alias config='cd ~/.config/'
+alias dvorak='setxkbmap dvorak'
+alias us='setxkbmap us'
+alias no='setxkbmap no'
+alias ru='setxkbmap ru'
+alias gp='~/Bin/gp.sh'
+alias swap-caps='setxkbmap -option caps:swapescape'
+alias doom='.emacs.d/bin/doom'
+alias typing='python ~/Documents/Personal-Programs/Typing_Game/src/main.py'
+alias ne='~/Bin/ne.sh'
+alias postg='sudo -u postgres -i'
+alias tos='~/Bin/tos.sh'
