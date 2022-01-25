@@ -25,23 +25,39 @@ else
 fi
 
 alias v="/usr/bin/nvim"
-alias joplin='joplin && joplin sync'
-alias MyDay='clear ; \
-    echo "RECURRING DAILY TASKS" ; \
-    task Daily ; echo "WORK RELATED TASKS" ; \
-    task Work ; echo "NON RECURRING PERSONAL TASKS" ;\
-    task Personal ; echo "CODING TASKS"; '
-alias notes='cd ~/Notes ; ranger'
-alias tracker='tracker.sh'
-alias config='cd ~/.config/'
+alias notes='cd ~/Notes '
+alias find-note='cd ~/Notes && v'
+
+# Keyboard Layouts
 alias dvorak='setxkbmap dvorak'
 alias us='setxkbmap us'
 alias no='setxkbmap no'
 alias ru='setxkbmap ru'
-alias gp='~/Bin/gp.sh'
 alias swap-caps='setxkbmap -option caps:swapescape'
-alias doom='.emacs.d/bin/doom'
-alias typing='python ~/Documents/Personal-Programs/Typing_Game/src/main.py'
-alias ne='~/Bin/ne.sh'
-alias postg='sudo -u postgres -i'
+
+# My Scripts
 alias tos='~/Bin/tos.sh'
+alias ne='~/Bin/ne.sh'
+alias e='~/Bin/emacs.sh'
+alias www='~/Bin/elinks-search'
+alias track-package='~/Bin/track-arch-packages'
+
+
+# Compiler Settings
+alias cc='cc -Wall -Werror -Wextra' # Basic C compiler w/ descent errors & warnings
+
+# Shorter App Names
+alias vi='/usr/bin/vim'
+
+# Other Aliases
+alias copy='xclip -selection clipboard'
+alias doom='.emacs.d/bin/doom'
+alias ls-all='set | grep -vi "power" | grep -vi "p9"'         # List everything the shell can manipulate
+alias lynx='lynx -cfg ~/.config/lynx/lynx.cfg'
+alias picom-on='picom --config $HOME/.config/bspwm/picom.conf &'
+alias postg='sudo -u postgres -i'
+alias qiv='qiv -w 500'
+alias work='clear ;t -w; t -wt'
+alias yt='~/.local/bin/ytfzf -t'
+alias mutt-wizard="mw"
+alias neomutt="mbsync -a && neomutt"

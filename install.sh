@@ -3,12 +3,12 @@ cd ~/
 
 
 # Copy the configs to your home directory.
-cp ~/zsh/.p10k.zsh ~/
-cp ~/zsh/.zshrc ~/
+cp ~/.config/zsh/.p10k.zsh ~/
+cp ~/.config/zsh/.zshrc ~/
 
-ln ~/zsh/.zshrc ~/
+ln ~/.config/zsh/.zshrc ~/
 
-mv zsh ~/.config/zsh/
+#mv zsh ~/.config/zsh/
 
 # Syntax Highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.config/zsh/plugins/zsh-syntax-highlighting
